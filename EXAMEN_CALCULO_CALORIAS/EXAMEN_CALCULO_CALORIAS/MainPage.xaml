@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EXAMEN_CALCULO_CALORIAS.MainPage">
+
+    <StackLayout BackgroundColor="LightSeaGreen" VerticalOptions="CenterAndExpand" Padding="5"> 
+    <Label Text="UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE" HorizontalTextAlignment="Center"
+           TextColor="Black" FontAttributes="Bold" FontSize="14"/>
+        <Frame BackgroundColor="DarkBlue" Margin="5" Padding="25" CornerRadius="0">
+            <StackLayout>
+                <Image Source="espe_escudo.png" WidthRequest="70" HeightRequest="100"/>
+                <Label Text="EXAMEN APLICACIONES MOBILES" HorizontalOptions="Center" FontSize="12"
+                       TextDecorations="Underline" FontAttributes="Bold" Padding="1,20,20,1" TextColor="SkyBlue"/>
+                <Label Text="INTEGRANTES:" HorizontalOptions="Center" TextColor="Bisque"
+                       FontSize="16" FontAttributes="Bold" Padding="30,0,30,0"/>
+                <Label Text="- Jonathan Pila" TextColor="Aquamarine" HorizontalOptions="Center" Padding="30,0,30,0"/>
+                <Label Text="- Bryan Llangarí" TextColor="Aquamarine" HorizontalOptions="Center" Padding="30,0,30,0"/>
+                <Label Text="- José Sailema" TextColor="Aquamarine" HorizontalOptions="Center" Padding="30,0,30,0"/>
+                <Label Text="- Lennin Calderon" TextColor="Aquamarine" HorizontalOptions="Center" Padding="30,0,30,0"/>
+                <Label Text="- Isaac Chanataxi" TextColor="Aquamarine" HorizontalOptions="Center" Padding="30,0,30,0"/>
+                <Button x:Name="btn1" Text="INGRESAR" TextColor="Black" BackgroundColor="GreenYellow" HeightRequest="38"/>
+            </StackLayout>
+            </Frame>
+    </StackLayout>
+</ContentPage>

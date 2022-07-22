@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EXAMEN_CALCULO_CALORIAS.Page2">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 WidthRequest="200">
+        <!--configuracion y definicion de las variables-->
+        <Label Text="CALCULO-CALORIAS" HorizontalOptions="Center"
+               FontAttributes="Bold,Italic"
+               FontSize="20"
+               HorizontalTextAlignment="Center"
+               TextColor="LawnGreen"/>
+        <StackLayout>
+            <Image Source="calorias.jfif" WidthRequest="70" HeightRequest="100"/>
+
+            <Entry Placeholder="Altura" x:Name="Altura"
+               HorizontalTextAlignment="Center"
+               Keyboard="Numeric"/>
+        <Entry Placeholder="Peso" x:Name="Peso"
+               HorizontalTextAlignment="Center"
+               Keyboard="Numeric"/>
+        <Entry Placeholder="Tus Calorias" x:Name="CAL"
+               HorizontalTextAlignment="Center"
+               IsEnabled="False"/>
+        <Button Text="Calcular" Clicked="Button_Clicked"
+                FontAttributes="Bold,Italic"
+                FontSize="20"
+                BackgroundColor="Yellow"/>
+    </StackLayout>
+    </StackLayout>
+</ContentPage>
